@@ -17,6 +17,7 @@ module GyakutenTodo2
     # the framework and any gems in your application.
     config.generators do |g|
       g.test_framework false
+      g.javascripts false
     end
 
     config.time_zone = 'Tokyo'
